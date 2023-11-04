@@ -5,12 +5,70 @@
  */
 
 /* Add your CSS here */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.grid-container .item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
 
+  background-color: #7FFF00;
+}
+.grid-container .item-2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
 
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #20B2AA;
+}
+.grid-container .item-3 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #8FBC8F;
+}
+.grid-container .item-4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #00FA9A
 
+} 
+.grid-container .item-5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #2E8B57;
+}
 
 /*
   CORE PAGE CSS - DO NOT MODIFY
